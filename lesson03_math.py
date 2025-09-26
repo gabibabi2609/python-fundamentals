@@ -51,3 +51,26 @@ print("Result 4: ", result4)
 
 result5 = 5 + 2 ** 3 * (4 - 1)
 print("Result 5: ", result5)
+
+#CHALLENGESS!!!
+
+#Challenge 1
+
+area = 8 * 5
+print("Area: ", area)
+
+#Challenge 2
+
+circle_area = 3.14 * 7 ** 2
+print("Circle area: ", circle_area)
+
+#Challenge 3 
+
+total = 12.99 * 3 + 3.50 * 4
+print("Total: ", total)
+
+#Challenge 4
+
+variable = 45
+modulus = 45 % 2
+print("Modulus: ", modulus)
