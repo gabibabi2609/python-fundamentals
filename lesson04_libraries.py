@@ -71,5 +71,16 @@ print(random.choice(my_favs))
 # Use two variables "radius" and "circle_area" to calculate the area of a circle with a diameter of 14. 
 # Formulas: the area of a circle is πr² -- the radius is diameter / 2
 
-radius = 3.14 * 7 ** 2
+print("\n--- CHALLENGE TIMMEEEE ---\n")
 
+radius = 14 / 2
+circle_area = math.pi * radius ** 2
+print("Area of a circle: ", circle_area)
+
+# Challenge 2: Simulate a Die Roll
+# Use the random library to simulate rolling a six-sided die.
+# The output should be a random integer between 1 and 6.
+# Store the result in a variable called "die_roll" and print it.
+
+die_roll = random.randint (1, 6)
+print("Die roll: ", die_roll)
