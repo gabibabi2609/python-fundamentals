@@ -27,5 +27,49 @@ result_3 = result_2 ** 2
 print(result_3)
 result_4 = result_3 / result_1
 print(result_4)
-result_5 = result_4
+result_5 = result_4 - 4169
+print(result_5)
+print(math.floor(result_5))
+
+print("\n--- ANSWER ---\n")
+
+import math 
+
+# seed = 80583
+# step1 = seed / 6.7
+# step2 = step1 - 800
+# step3 = step2 + 180843
+# print(step3)
+# result = math.floor(step3)
+# print(result)
+# limitednumber = step3 - result
+# answer = math.floor(limitednumber * 10)
+
+# print(answer)
+
+seed = 12.4444
+step1 = seed / 6.7
+step2 = step1 - 800
+step3 = step2 + 180843
+step4 = step3 % 10
+result = math.floor(step4)
+print(result)
+#stuff from class ^^^^^
+
+print("\n--- Random Stuff ---\n" )
+
+import random
+
+#methods:
+print("Random integer: ", random.randint(1, 7))
+print("Random float between 0 and 1: ", random.random())
+my_favs = ["cat", "fox", "whale", "queen victoria"]
+print(random.choice(my_favs))  
+print(random.choice(my_favs))
+
+# Challenge 1: Circle Area with Math Library
+# Use two variables "radius" and "circle_area" to calculate the area of a circle with a diameter of 14. 
+# Formulas: the area of a circle is πr² -- the radius is diameter / 2
+
+radius = 3.14 * 7 ** 2
 
