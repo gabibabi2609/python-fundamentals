@@ -16,7 +16,7 @@ print("Next year you'll be ", age_number + 1 )
 print("\n")
 #example with float input
 
-height = float(input("Enter your height in feet "))
+height = int(input("Enter your height in feet "))
 print("You are", height, "feet tall")
 print("\n")
 #Challenge 1: favorite color
