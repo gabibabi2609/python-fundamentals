@@ -40,3 +40,29 @@ phrase = "pEnguIN"
 print("\nUppercase:", phrase.upper())
 print("\nLowercase:", phrase.lower())
 print("\nCapitalize:", phrase.capitalize())
+print("\nTitle Format:", phrase.title())
+
+print()
+
+#Find and Replace text
+sentence = "Penguins like to trade pebbles"
+new_sentence = sentence.replace("like", "love")
+print("First sentence: ", sentence)
+print("New sentence:", new_sentence)
+
+#Formatted strings
+
+print("\n--- Formatted Strings ---\n")
+
+
+name = "Billy"
+age = 6
+city = "Boston"
+
+print(f"Hello, my name is {name}. I am {age} and live in {city}")
+
+#f strings can do math and function calls inside {}
+
+print(f"Next year, I'll be {age + 1}. My name in upper case is {name.upper()}")
+
+#CHALLENGE TIMEEEEE
