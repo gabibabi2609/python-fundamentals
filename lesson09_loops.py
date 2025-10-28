@@ -85,3 +85,22 @@ while count > 0:
 
     print(count)
 
+
+#Challenges
+
+#Challenge 1: 
+
+num_fruits = int(input("How many fruits to pick? "))
+fruits = ['apple', 'peach', 'mango', 'strawberry', 'watermelon', 'raspberry', 'banana']
+
+import random
+import time
+
+# for fruit in fruits:
+#     print("You picked: ", random.choice(fruits))
+#     time.sleep(1.5)
+
+for fruit in range(num_fruits):
+    print("You picked: ", random.choice(fruits))
+    time.sleep(0.5)
+
